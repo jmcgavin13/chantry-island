@@ -1,0 +1,2180 @@
+/*-----General-----*/
+::selection
+{
+  background: #981b1e;
+  color: #fff;
+}
+
+::-moz-selection
+{
+  background: #981b1e;
+  color: #fff;
+}
+
+#pageTitle {
+	background-color: #981b1e;
+	padding: 10px 0px;
+}
+
+#pageTitle h1 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.75em;
+	font-weight: 400;
+	color: #fff;
+	padding: 0;
+	margin: 0;	
+}
+
+.blackTxt {
+	color: #252525;
+}
+
+.whiteTxt {
+	color: #ffffff;
+}
+
+.redTxt {
+	color: #981b1e;
+}
+
+.heading {
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+.subHeading {
+	font-size: 1.313em;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+.paragraph {
+	font-size: 1em;
+	font-weight: 400em;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+/*-----Home-----*/
+#homeRotatorCon {
+	background-color: #252525;
+	background-image: url(../images/home_rotator_1.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 10px;
+	position: relative;
+	min-height: 300px;
+}
+
+#homeRotatorText {
+	background-color: rgba(0,0,0,0.5);
+	padding: 12px;
+}
+
+.homeSelectors {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	right: 0;
+	transform: translateX(-50%);
+	width: 60px;
+	height: 10px;
+}
+
+#bookingCon {
+	border-right: solid 2px #650f11;
+}
+
+#bookingBarFull {
+	background-color: #981b1e;
+}
+
+.bookingBar {
+	padding: 10px;
+	text-align: center;
+}
+
+.bookingBar a
+{
+	color: #981b1e;
+	background-color: #fff;
+	padding: 6px 12px;
+	border-radius: 5px;
+	transition: .3s ease-in-out all;
+}
+
+.bookingBar a:hover
+{
+	color: #fff;
+	background-color: #252525;
+}
+
+.linksCon {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #d6d6d6;
+}
+
+.linksCon img {
+	display: block;
+	margin: 0 auto;
+}
+
+.iconCon {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.iconCon h3 {
+	color: #981b1e;
+	font-size: 1.25em;
+	font-weight: 700;
+	font-family: 'Overpass', sans-serif;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.iconCon p {
+	color: #252525;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Overpass', sans-serif;
+	text-align: left;
+}
+
+.vidCon {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#homeDonateCon {
+	background-color: #8eabc9;
+	background-image: url(../images/water.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px 60px 0px;
+	margin-bottom: 50px;
+}
+
+.donateTitle {
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+.donateInfo {
+	font-size: 1em;
+	font-weight: 500;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+}
+
+#donateButCon {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#donateBut {
+	background-color: #981b1e;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	font-weight: 700;
+}
+
+#donateBut:hover {
+	background-color: #ffffff;
+	color: #981b1e;
+	transition: .3s ease-in-out all;
+}
+
+.affiliatesConFull {
+	background-color: #d9d9d9;
+	padding-bottom: 40px;
+}
+
+.affiliatesConFull h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+.affiliatesConFull h3 {
+	font-weight: 600;
+	margin: 0;
+}
+
+.affiliatesInfo {
+	background-color: #fff;
+	padding: 10px;
+}
+
+#affiliatesControls {
+	padding-top: 20px;
+	margin: 0;
+}
+
+#affiliatesLeft {
+	float: left;
+	width: 40px;
+	margin-left: 30px;
+}
+
+#affiliatesRight {
+	transform: rotate(180deg);
+	float: right;
+	width: 40px;
+	margin-right: 30px;
+}
+
+#affiliatesLeft:hover, #affiliatesRight:hover {
+	cursor: pointer;
+	filter: brightness(95%);
+}
+
+.selectorDot {
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border-radius: 50%;
+	float: left;
+}
+
+.selectorDot:hover {
+	cursor: pointer;
+}
+
+.nonActiveSelector {
+	background-color: #b9b9b9;
+}
+
+.activeSelector {
+	background-color: #981b1e;
+}
+
+/*-----News-----*/
+.newsWrapper {
+	margin: 20px 0px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 20px;
+}
+
+.newsWrapper img {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.newsWrapper h2 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #981b1e;
+	margin: 0;
+	padding: 0;
+}
+
+.newsWrapper h3 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #252525;
+}
+
+.newsWrapper p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #252525;
+}
+
+.newsWrapper a {
+	color: #252525;
+	transition: .3s ease-in-out all;
+}
+
+.newsWrapper a:hover {
+	color: #981b1e;
+}
+
+/*-----Events-----*/
+#eventsWrapper {
+	padding: 40px 0px;
+}
+
+.eventThumbImg {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.eventsCon {
+	background-color: #d7d7d7;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.eventsCon h1 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	color: #981b1e;
+	margin: 0;
+	padding: 0;
+}
+
+.eventsCon h2 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #252525;
+}
+
+.eventsCon p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	color: #252525;
+}
+
+/*-----Contact-----*/
+.map-wrapper, .preload-wrapper
+{
+	width: 100%;
+	height: 350px;
+}
+
+.address
+{
+	width: 350px;
+}
+
+.preload-wrapper
+{ 
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 2px solid #ccc;
+	z-index: 50;
+	width: 98.5%;
+	border-radius: 8px;
+	left: 0;
+	right: 0;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1em;
+	color: #CCC;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	pointer-events: none;
+	transition: opacity 0.7s ease;
+}
+
+.hide-preloader
+{
+	opacity: 0;
+}
+
+.preload-wrapper i
+{
+	margin: 100px 0 20px;
+	font-size : 2.2em;
+}
+
+.preload-wrapper span
+{
+	display: block;
+
+}
+
+#mapOptionsArea {
+	background-color: #c2c2c2;
+	padding: 30px 0px;
+}
+
+#mapOptionsArea p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #252525;
+}
+
+#mapOptionsArea button {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #fff;
+	background-color: #981b1e;
+	padding: 8px 20px;
+	transition: .3s ease-in-out all;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+#mapOptionsArea button:hover {
+	color: #fff;
+	background-color: #6e1214;
+}
+
+#directionsPanel {
+	margin-top: 10px;
+	height: 150px;
+	overflow: scroll;
+}
+
+#contactGeneralWrapper {
+	padding: 30px 0px;
+}
+
+#contactGeneral p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #252525;
+	text-align: center;
+}
+
+#contactGeneral span {
+	font-weight: 400;
+	margin-right: 40px;
+}
+
+#contactGeneral span:last-child {
+	margin-right: 0px;
+}
+
+#contactGeneral h2 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#contactGeneral a {
+	color: #fff;
+	background-color: #981b1e;
+	padding: 8px 20px;
+	transition: .3s ease-in-out all;
+}
+
+#contactGeneral a:hover {
+	color: #fff;
+	background-color: #6e1214;
+}
+
+#formWrapper {
+	background-color: #c2c2c2;
+	padding: 30px 0px;
+}
+
+.formCon {
+	padding-right: 0px;
+	border-right: none;
+}
+
+#formWrapper h2 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	color: #252525;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#formWrapper p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #252525;
+	text-align: center;
+}
+
+#formCon label {
+	color: #252525;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+}
+
+.address {
+	display: none;
+}
+
+.contactInput, #yourAddress {
+	border: 0px;
+	height: 35px;
+	background-color: #fff;
+	margin-bottom: 8px;
+}
+
+.contactInput:focus, #yourAddress:focus {
+	box-shadow: none;
+	border: none;
+}
+
+#contactMsg {
+	height: 100px;
+	border: 0px;
+	background-color: #fff;
+}
+
+#contactMsg:focus {
+	background-color: #fff;
+	border: none;
+	box-shadow: none;
+}
+
+.submitContact {
+	float: right;
+	border: 0px;
+	background-color: #981b1e;
+	padding: 8px 25px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	transition: .2s ease-in-out all;
+}
+
+.submitContact:hover {
+	background-color: #6e1214;
+}
+
+/*-----Booking-----*/
+#bookingHeaderImg {
+	background-color: #252525;
+	background-image: url(../images/booking_header.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 30px;
+}
+
+#bookingHeaderImg h2 {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+#bookingHeaderInfo {
+	background-color: #252525;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#bookingHeaderInfo h3 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+#bookingPhone {
+	color: #fff;
+	transition: .3s ease-in-out all;
+}
+
+#bookingPhone:hover {
+	color: #dcdcdc;
+}
+
+#bookingHeaderInfo span {
+	font-weight: 700;
+}
+
+#bookingHeaderPhone {
+	float: left;
+}
+
+#emailButCon {
+	text-align: center;
+	display: block;
+	margin: 30px auto 20px auto;
+}
+
+#emailBut {
+	background-color: #981b1e;
+	border-radius: 5px;
+	padding: 6px 20px 6px 20px;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	font-weight: 700;
+}
+
+#emailBut:hover {
+	background-color: #fff;
+	color: #981b1e;
+	transition: .3s ease-in-out all;
+}
+
+#generalBookingInfo {
+	padding: 50px 10px;
+}
+
+#bookingRates {
+	border-radius: 5px;
+	background-color: #dfdfdf;
+	padding: 10px;
+}
+
+#ratesInfo {
+	border-top: solid 1px #848484;
+	padding-top: 10px;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+}
+
+/*-----Schedule-----*/
+.monthCard {
+	background-color: #dfdfdf;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.monthCard h2 {
+	text-align: center;
+	background-color: #252525;
+}
+
+.monthCard h3 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	font-weight: 600;
+	color: #252525;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.monthCard p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	color: #252525;
+	text-align: center;
+	margin: 0;
+}
+
+.monthCard p span {
+	font-weight: 700;
+}
+
+/*-----End Schedule-----*/
+
+#whereAndWhenFull {
+	background-color: #981b1e;
+	margin: 50px 0px;
+}
+
+#whereAndWhen {
+	padding: 60px 30px;
+}
+
+#whereAndWhen p a {
+	color: #fff;
+}
+
+#whereAndWhen p a:hover {
+	text-decoration: underline;
+}
+
+#finalBookingDetails {
+	margin-bottom: 50px;
+}
+
+#pleaseNote {
+	background-color: #252525;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#finePrint {
+	margin-top: 30px;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+}
+
+#finePrint li{
+	color: #981b1e;
+}
+
+/*-----Gallery-----*/
+#galleryInfo {
+	padding-top: 40px;
+}
+
+#photoGalleryIcon {
+	max-width: 175px;
+}
+
+#galleryInfo p a {
+	color: #475A84;
+}
+
+#galleryInfo p a:hover {
+	color: #981b1e;
+	transition: .3s ease-in-out all;
+}
+
+#noScriptGallery {
+  width: 100%;
+  background-color: red;
+  padding: 8px 0px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+#noScriptGallery p {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  color: #f2f2f2;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#galleryCon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#mainImgCon {
+  background-color: #dfdfdf;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#imgNo {
+  color: #252525;
+  font-family: 'Overpass', sans-serif;
+  font-size: .85em;
+  padding: 10px;
+  margin: 0;
+  float: right;
+  position: relative;
+  z-index: 100;
+}
+
+#mainImg img {
+  max-height: 500px;
+  max-width: 100%;
+}
+
+#imgDesc {
+  color: #252525;
+  font-family: 'Overpass', sans-serif;
+  font-size: .85em;
+  padding: 10px;
+  margin: 0;
+  float: left;
+}
+
+.galleryIcon {
+  width: 20px;
+  float: right;
+  cursor: pointer;
+  margin: 10px;
+  transition: .2s ease-In-Out all;
+  opacity: .2;
+}
+
+.galleryIcon:hover, .galleryIconClicked {
+  transform: scale(1.13,1.13);
+  opacity: .9;
+}
+
+#prev {
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  width: 25px;
+  transform: translateY(-50%);
+  filter: invert(100%) brightness(200%);
+  opacity: 0.9;
+  transition: .2s ease-In-Out all;
+}
+
+#next {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  width: 25px;
+  transform: rotate(180deg) translateY(+50%);
+  filter: invert(100%) brightness(200%);
+  opacity: 0.9;
+  transition: .2s ease-In-Out all;
+}
+
+#prev:hover, #next:hover {
+  opacity: .9;
+}
+
+#thumbnailCon {
+  max-width: 1200px;
+  width: 90%;
+  overflow: hidden;
+  margin: -30px auto 50px auto;
+  text-align: center;
+}
+
+.thumb {
+  cursor: pointer;
+  margin: 3px;
+  display: inline-block;
+}
+
+.thumb img {
+  object-fit: cover;
+  width: 87px;
+  height: 87px;
+  padding: 3px;
+  border: solid 1px #252525;
+}
+
+.thumb img:hover {
+  transform: scale(1.05,1.05);
+  transition: .1s ease-In-Out all;
+}
+
+.nonActive {
+  filter: saturate(0.1) opacity(0.5);
+}
+
+@media (min-width: 650px) {
+  .thumb img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #mainImg {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  #prev {
+    left: 10px;
+    opacity: 0.2;
+    filter: invert(0%) brightness(100%);
+  }
+
+  #next {
+    right: 10px;
+    opacity: 0.2;
+    filter: invert(0%) brightness(100%);
+  }
+}
+
+/*-----About-----*/
+#aboutTopBarWrapper {
+	padding: 90px 0px;
+	background-color: #252525;
+	background-image: url(../images/about_rotator_1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 375px;
+}
+
+#aboutTopBar {
+	position: relative;
+}
+
+#aboutTopBar h2 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: 3em;
+	font-weight: 200;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+}
+
+#aboutTopBar h3 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+	margin-bottom: 20px;
+}
+
+#aboutTopBarLine
+{
+	background-color: #fff;
+	box-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+	height: 4px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+#aboutTopBar p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+	margin-top: 20px;
+}
+
+#aboutDesc {
+	background-color: #d7d7d7;
+	padding: 40px;
+	margin: 0;
+}
+
+#aboutBook {
+	background-color: #898989;
+	padding: 40px;
+	margin: 0;
+}
+
+#aboutBook h2 {
+	font-family: 'Overpass', sans-serif;
+	color: #252525;
+	font-size: 1.5em;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#aboutBook p {
+	font-family: 'Overpass', sans-serif;
+	font-size: .875em;
+	font-weight: 200;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#aboutBook a {
+	color: #fff;
+	background-color: #981b1e;
+	padding: 8px 20px;
+	border-radius: 5px;
+	transition: .3s ease-in-out all;
+}
+
+#aboutBook a:hover {
+	color: #fff;
+	background-color: #6c1315;
+}
+
+#vidCon {
+	margin: 40px auto 40px auto;
+}
+
+#restorWrapper {
+	background-color: #981b1e;
+	padding: 20px 0px;
+}
+
+#restorWrapper h2 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+}
+
+#restorWrapper h3 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#restorWrapper p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	font-weight: 200;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#restorWrapper a {
+	color: #252525;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 8px 20px;
+	transition: .3s ease-in-out all;
+}
+
+#restorWrapper a:hover {
+	color: #fff;
+	background-color: #252525;
+}
+
+#extraDesc {
+	background-color: #b7b7b7;
+	padding: 30px;
+}
+
+#extraDescCon {
+	background-color: rgba(0,0,0,0.6);
+	padding: 30px;
+}
+
+#extraDescCon p {
+	text-align: center;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+#islandSizeWrapper {
+	padding: 30px 0px;
+}
+
+#islandSizeWrapper p {
+	text-align: center;
+	color: #252525;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+#islandSizeWrapper img {
+	max-height: 150px;
+	float: right;
+}
+
+#lightHouseHisTitle {
+	padding: 20px 0px;
+}
+
+#lightHouseHisTitle h2 {
+	text-align: center;
+	color: #981b1e;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+#historyWrapper {
+	background-color: #981b1e;
+	padding: 30px 0px;
+}
+
+#historyWrapper p {
+	text-align: center;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	padding: 20px 0px;
+	margin: 0;
+}
+
+#birdSancWrapper {
+	padding: 40px 0px;
+}
+
+#birdSancWrapper h2 {
+	text-align: center;
+	color: #252525;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#birdSancWrapper img {
+	max-width: 150px;
+	float: right;
+}
+
+#birdSancWrapper p {
+	text-align: center;
+	color: #252525;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+/*-----Volunteers-----*/
+#interviews {
+	margin-top: 40px;
+}
+
+#interviews h2 {
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-color: #252525;
+	margin-bottom: 20px;
+}
+
+#interviews iframe {
+	margin-bottom: 30px;
+}
+
+#volunteersCon {
+	padding: 50px 10px 50px 10px;
+}
+
+/*-----Donate-----*/
+#donateInfo {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+#donateCon {
+	background-color: #981b1e;
+	padding: 20px;
+}
+
+#donateCon p {
+	text-align: left;
+}
+
+#donateAddressCon {
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.donateAddress {
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	margin-bottom: -5px;
+}
+
+#donorCategories {
+	margin: 50px 0px 60px 0px;
+}
+
+.donorCategoryBlack, .donorCategoryWhite, .donorCategoryGrey {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.donorCategoryBlack {
+	background-color: #252525;
+}
+
+.dontorCategoryWhite {
+	background-color: #fff;
+}
+
+.donorCategoryGrey {
+	background-color: #eee;
+}
+
+.donorCategoryBlack h2 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.donorCategoryWhite p, .donorCategoryGrey p {
+	font-family: 'Overpass', sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.donorCategoryWhite span, .donorCategoryGrey span {
+	font-weight: 700;
+}
+
+/*-----Restoration-----*/
+#restorationIntro {
+	padding: 40px 0 20px 0;
+	margin-bottom: 40px;
+	border-bottom: solid 3px #981b1e;
+}
+
+#beforeRestoration {
+	margin-bottom: 40px;
+}
+
+#beforeRestoration h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#smallLighthouses {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#afterRestorationFull {
+	background-color: #e1e1e1;
+}
+
+#afterRestorationFull h2 {
+	text-align: center;
+	background-color: #252525;
+	padding: 10px;
+	margin: 0px;
+}
+
+#afterRestoration {
+	padding: 40px 10px 40px 10px;
+}
+
+#smallLighthouseRenovated {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#restorationPartners {
+	padding: 50px 10px 30px 10px;
+	background-color: #981b1e;
+}
+
+/*-----Header-----*/
+#offCanvas {
+	background-color: #e3e3e3;;
+}
+
+#sideBarWhite
+{
+	background-color: #fff;
+}
+
+#sideBarWhite h2 {
+	font-family: 'Overpass', sans-serif;
+	color: #252525;
+	font-size: 1.5em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#closeButtonColor {
+	color: #981b1e;
+	transition: .3s ease-in-out all;
+}
+
+#closeButtonColor:hover {
+	color: #c2c2c2;
+}
+
+#smallConMenuLogo {
+	padding-top: 30px;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	border-bottom: 1px solid #c2c2c2;
+	padding-bottom: 10px;
+}
+
+#offCanvText {
+	padding: 20px;
+}
+
+.sideInput {
+	border: 0px;
+	height: 35px;
+	background-color: #cccccc;
+	margin-bottom: 8px;
+	color: #252525;
+	font-size: 0.9em;
+	box-shadow: none;
+}
+
+.sideInput:focus {
+	box-shadow: none;
+	border: solid 1px #981b1e;
+	background-color: #ffffff;
+}
+
+#sideMsg {
+	height: 150px;
+}
+
+#sideSubmit {
+	float: right;
+	border: 0px;
+	background-color: #981b1e;
+	color: #fff;
+	padding: 6px 14px;
+	cursor: pointer;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	transition: .2s ease-in-out all;
+	margin: 10px 0px 20px 0px;
+}
+
+#offCanvas a {
+	color: #303030;
+}
+
+#offCanvas p {
+	color: #303030;
+	font-family: 'Overpass', sans-serif;
+	font-size: .875em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+#offCanvas span {
+	color: #c2c2c2;
+}
+
+#offCanvFormCon {
+	padding: 20px;
+}
+
+#offCanvFormCon p {
+	color: #981b1e;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#headerWrapper {
+	background: #fff;
+}
+
+#skewCon {
+	background-color: #fff;
+	-moz-transform: skew(-20deg, 0deg);
+	-webkit-transform: skew(-20deg, 0deg);
+	-o-transform: skew(-20deg, 0deg);
+	-ms-transform: skew(-20deg, 0deg);
+}
+
+#topNavBar {
+	background-color: #252525;
+	padding: 6px 0px 0px 0px;
+}
+
+#topNavBarPhone {
+	display: none;
+}
+
+#topNavBar h3 {
+	font-family: 'Overpass', sans-serif;
+	color: #fff;
+	font-size: .5em;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+#topNavBar a {
+	color: #fff;
+	transition: .3s ease-in-out all;
+}
+
+#topNavBar a:hover {
+	color: #dcdcdc;
+}
+
+#topNavBar span {
+	margin-left: 20px;
+}
+
+.topNavBarSocIcon {
+	float: right;
+	max-width: 20px;
+	margin-left: 10px;
+	margin-top: 2px;
+	transition: .3s ease-in-out all;
+}
+
+.topNavBarSocIcon:hover {
+	opacity: .8;
+}
+
+.title-bar {
+	background: transparent;
+	padding-right: 0rem;
+	padding: 10px 0px 6px 0px;
+}
+
+.menu-icon::after {
+	background: #981b1e;
+	box-shadow: 0 7px 0 #981b1e, 0 14px 0 #981b1e;
+	transition: .2s ease-in-out all;
+}
+
+.menu-icon:hover::after {
+	background: #252525;
+	box-shadow: 0 7px 0 #252525, 0 14px 0 #252525;
+}
+
+#headerLogo {
+	max-height: 60px;
+	margin-left: 10px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	-moz-transform: skew(20deg, 0deg);
+	-webkit-transform: skew(20deg, 0deg);
+	-o-transform: skew(20deg, 0deg);
+	-ms-transform: skew(20deg, 0deg);
+}
+
+#mobileNav {
+	list-style: none;
+	text-align: center;
+}
+
+#mobileNav li {
+	padding: 10px 0px;
+	margin-right: 20px;
+	background-color: #e5e5e5;
+	margin-bottom: 1px;
+	transition: .2s ease-in-out all;
+}
+
+#mobileNav li:first-child {
+	margin-top: 20px;
+}
+
+#mobileNav li a {
+	color: #981b1e;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	margin: 0 auto;
+	transition: .3s ease-in-out all;
+}
+
+#mobileNav li a:hover {
+	color: #252525;
+}
+
+#smallContactIcon {
+	max-width: 30px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+
+#smallContactIcon:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+
+#mainNavAdditionlLinks {
+	display: none;
+}
+
+#hamburgLogoCon {
+	margin: 20px 20px 0px 20px;
+}
+
+#hamburgLogo {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+#extraHamburgLinks {
+	list-style: none;
+	text-align: center;
+	margin-top: -19px;
+}
+
+#extraHamburgLinks li {
+	padding: 10px 0px;
+	margin-right: 20px;
+	background-color: #e5e5e5;
+	margin-bottom: 1px;
+	transition: .2s ease-in-out all;
+}
+
+#extraHamburgLinks li:first-child {
+	margin-top: 20px;
+}
+
+#extraHamburgLinks li a {
+	color: #981b1e;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	margin: 0 auto;
+	transition: .3s ease-in-out all;
+}
+
+#extraHamburgLinks li a:hover {
+	color: #252525;
+}
+
+#sideSocIconsCon {
+	width: 55px;
+	position: fixed;
+	top: 46%;
+	margin-left: -500px;
+	z-index: 2000;
+	display: none;
+}
+
+.sideSocIcons {
+	padding: 5px;
+	width: 45px;
+	display: block;
+	margin: 0 auto;
+	transition: .3s ease-in-out all;
+}
+
+.sideSocIcons:hover {
+	opacity: .5;
+}
+
+/*-----Footer-----*/
+#mainFooterWrapper {
+	background-color: #fff;
+	border-top: 8px solid #252525;
+	padding: 30px 0px;
+}
+
+#footerContactInfoBox
+{
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+
+#mainFooter h2 {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #981b1e;
+}
+
+#mainFooter p {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	font-size: .875em;
+	color: #252525;
+	margin: 0;
+	padding: 0;
+}
+
+#mainFooter span
+{
+	color: #757575;
+}
+
+#mainFooter ul {
+	list-style: none;
+	margin: 0;
+}
+
+#mainFooter li {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+}
+
+#mainFooter li a {
+	color: #252525;
+	transition: .3s ease-in-out all;
+}
+
+#mainFooter li a:hover {
+	color: #981b1e;
+}
+
+#lowerFooterWrapper {
+	background-color: #252525;
+	padding: 10px 0px;
+}
+
+#lowerFooterWrapper p {
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: .875em;
+	margin: 0;
+	padding: 0;
+}
+
+#lowerFooterWrapper a {
+	color: #808080;
+	transition: .3s ease-in-out all;
+}
+
+#lowerFooterWrapper a:hover {
+	color: #981b1e;
+}
+
+#lowerFooterLeft {
+	text-align: center;
+}
+
+#lowerFooterRight {
+	text-align: right;
+}
+
+#footerLock {
+	max-width: 8px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+label {
+	color: #757575;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+}
+
+.address {
+	display: none;
+}
+
+.footerInput {
+	border: 0px;
+	height: 35px;
+	background-color: #cccccc;
+	margin-bottom: 8px;
+	color: #252525;
+	font-size: 0.9em;
+}
+
+.footerInput:focus {
+	box-shadow: none;
+	border: none;
+	background-color: #d9d9d9;
+}
+
+#footerMsg {
+	height: 55px;
+	border: 0px;
+	background-color: #cccccc;
+}
+
+#footerMsg:focus {
+	background-color: #d9d9d9;
+	border: none;
+	box-shadow: none;
+}
+
+#footerSubmit {
+	float: right;
+	border: 0px;
+	background-color: transparent;
+	color: #981b1e;
+	cursor: pointer;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	transition: .2s ease-in-out all;
+}
+
+#footerSubmit:hover {
+	color: #252525;
+}
+
+.footerSocIcon {
+	float: left;
+	max-width: 25px;
+	margin-right: 8px;
+	margin-top: 20px;
+	transition: .3s ease-in-out all;
+}
+
+.footerSocIcon:hover {
+	opacity: .7;
+}
+
+#siteDesigners {
+	width: 100%;
+	padding: 5px;
+	background-color: #981b1e;
+}
+
+#siteDesigners p {
+	font-size: 0.75em;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+#siteDesigners a {
+	color: #fff;
+	margin: 0;
+}
+
+#siteDesigners a:hover {
+	text-decoration: underline;
+}
+
+/*-----Success Page-----*/
+#successCon {
+	height: 100vh;
+	background-image: url(../images/success_bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30vh;
+}
+
+#successCon h1 {
+	text-align: center;
+	color: #981b1e;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+#successCon h2 {
+	text-align: center;
+	color: #981b1e;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+#successCon h3 {
+	text-align: center;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+@media (min-width: 23.4375em) {
+	
+	/*-----Header-----*/
+	
+	#topNavBar h1 {
+		font-size: .7em;
+		margin-top: 2px;
+	}
+}
+
+
+@media (min-width: 40em) {
+	
+	/*-----General-----*/
+	
+	#pageTitle {
+		padding: 20px 0px;
+	}
+	
+	#pageTitle h1 {
+		font-size: 2.25em;
+	}
+	
+	.heading {
+		font-size: 1.5em;
+		font-weight: 700;
+		text-align: left;
+	}
+	
+	.subHeading {
+		font-size: 1.125em;
+		font-weight: 300;
+		text-align: left;
+	}
+	
+	.paragraph {
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+	}
+	
+	/*-----Home-----*/
+	.homeRotatorImg {
+		min-height: 350px;
+	}
+	
+	.homeRotatorInfo {
+		top: 40px;
+		left: 50px;
+		width: 400px;
+		height: inherit;
+	}
+	
+	#bookATour {
+		font-size: 2em;
+		font-weight: 300;
+	}
+	
+	#dontWait {
+		font-size: 2.5em;
+		font-weight: 700;
+		margin-top: -20px;
+	}
+	
+	#bookingInfo {
+		border-left: solid 2px #650f11;
+	}
+	
+	#bookingCon {
+		border: none;
+	}
+	
+	#bookingInfo p {
+		font-size: 1em;
+	}
+	
+	#bookingInfo a {
+		font-size: 1.25em;
+	}
+
+	.iconCon {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.iconCon h3, .iconCon p {
+		text-align: center;
+	}
+
+	.homeSelectors {
+		position: absolute;
+		left: auto;
+		right: 20px;
+		top: 50%;
+		transform: translateX(50%);
+		width: 10px;
+		height: 60px;
+		margin: 0;
+	}
+	
+	/*-----News-----*/
+	.newsWrapper img {
+		margin-bottom: 0px;
+	}
+	
+	/*-----Contact-----*/
+	#formCon {
+		padding-right: 40px;
+		border-right: 1px solid #a9a9a9;
+	}
+	
+	#formWrapper h1 {
+		text-align: left;
+		margin-top: 0px;
+	}
+
+	#formWrapper h2 {
+		margin-top: 0px;
+	}
+	
+	#formWrapper p {
+		text-align: left;
+	}
+
+	#directionsPanel {
+		margin-top: -12px;
+	}
+
+	/*-----Booking-----*/
+	#bookingHeaderPhone h3 {
+		display: inline;
+	}
+
+	#bookingHeaderPhone h3 {
+		margin-left: 20px;
+	}
+
+	#emailButCon {
+		text-align: center;
+		float: right;
+		margin: 0;
+	}
+
+	#finePrint {
+		margin-top: 0px;
+	}
+
+	/*-----Volunteers-----*/
+	.volunteersConBlack h2 {
+		font-size: 1.25em;
+	}
+
+	.volunteersConWhite p, .volunteersConGrey p {
+		font-size: 1em;
+	}
+
+	/*-----Donate-----*/
+	.donorCategoryBlack h2 {
+		font-size: 1.25em;
+	}
+
+	.donorCategoryWhite p, .donorCategoryGrey p {
+		font-size: 1em;
+	}
+	
+	/*-----About-----*/
+	#aboutBook h2, #aboutBook p, #restorWrapper h2, #restorWrapper h3 {
+		text-align: left;
+	}
+	
+	#restorWrapper p {
+		text-align: right;
+	}
+	
+	#extraDesc {
+		background-color: #b7b7b7;
+		background-image: url(../images/extraDesc_BG.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	#extraDescCon p {
+		font-size: 1.25em;
+	}
+	
+	#islandSizeWrapper p, #lightHouseHisTitle h2 {
+		text-align: left;
+	}
+	
+	#historyWrapper {
+		background-color: #981b1e;
+		background-image: url(../images/lighthouseHis_BG.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	#historyWrapper p {
+		text-align: left;
+	}
+	
+	#birdSancWrapper h2 {
+		text-align: left;
+	}
+	
+	#birdSancWrapper p {
+		text-align: left;
+		font-size: 1.25em;
+	}
+	
+	/*-----Header-----*/
+	#headerWrapper {
+		background: #ffffff;
+		background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 13%, #dfdfdf 13%, #dfdfdf 100%);
+		background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 13%,#dfdfdf 13%,#dfdfdf 100%);
+		background: linear-gradient(to right, #ffffff 0%,#ffffff 13%,#dfdfdf 13%,#dfdfdf 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=1 );
+	}
+	
+	#topNavBarPhone {
+		display: block;
+		max-width: 20px;
+		float: left;
+		margin-right: 10px;
+	}
+		
+	#topNavBar h1 {
+		font-size: .75em;
+	}
+	
+	#mobileNav {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#mobileNav li {
+		border-bottom: none;
+		display: inline;
+		padding: 0px;
+		margin-right: 0px;
+		background-color: transparent;
+		margin-bottom: 0px;
+	}
+	
+	#mobileNav li:hover {
+		background-color: transparent;
+	}
+	
+	#mobileNav li:first-child {
+		margin-top: 0px;
+	}
+	
+	#mobileNav li:last-child {
+		margin-right: 10px;
+	}
+	
+	#mobileNav li a {
+		display: inline;
+		border-bottom: none;
+		padding-left: 22px;
+		font-size: .875em;
+		background-color: transparent;
+	}
+	
+	#mobileNav li:first-child a {
+		padding-left: 0px;
+	}
+	
+	#smallContactIcon {
+		display: none;
+	}
+	
+	#mainNavAdditionlLinks {
+		list-style: none;
+		display: block;
+		text-align: right;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	#mainNavAdditionlLinks li {
+		display: inline;
+	}
+	
+	#mainNavAdditionlLinks li a {
+		margin-right: 10px;
+		margin-left: 10px;
+		color: #929292;
+		font-family: 'Overpass', sans-serif;
+		font-weight: 600;
+		font-size: 1em;
+		transition: .3s ease-in-out all;
+	}
+	
+	#mainNavAdditionlLinks li a:hover {
+		color: #981b1e;
+	}
+	
+	#hamburgLogoCon {
+		display: none;
+	}
+	
+	#extraHamburgLinks {
+		display: none;
+	}
+	
+	/*-----Footer-----*/
+	
+	#lowerFooterLeft {
+		text-align: left;
+	}
+
+}
+
+@media screen and (min-width: 650px) {
+	/*-----Gallery-----*/
+	.thumb img {
+	width: 100px;
+	height: 100px;
+	}
+
+	#mainImg {
+	padding-right: 45px;
+	padding-left: 45px;
+	}
+
+	#prev {
+	left: 10px;
+	opacity: 0.2;
+	filter: invert(0%) brightness(100%);
+	}
+
+	#next {
+	right: 10px;
+	opacity: 0.2;
+	filter: invert(0%) brightness(100%);
+	}
+
+	.bookingBar {
+		padding: 10px;
+		text-align: left;
+	}
+}
+
+
+@media screen and (min-width: 48.125em) {
+	
+	#headerLogo {
+		max-height: 84px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#mobileNav li a {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	/*-----Header-----*/
+	#mobileNav li:first-child a {
+		padding-left: 40px;
+	}
+  
+  	.iconCon h3, .iconCon p {
+		text-align: left;	
+	}
+
+	/*-----Donate-----*/
+	#donateCon {
+		margin-bottom: 50px;
+	}
+
+	#donorCategories {
+		margin: 0;
+	}
+}
+
+
+@media screen and (min-width: 82.5em) {
+
+	#sideSocIconsCon {
+		display: block;
+	}
+}	
+
+@media screen and (min-width: 96.562em) {
+	/*-----Header-----*/
+	#headerWrapper {
+		background: #ffffff;
+		background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 20%, #dfdfdf 20%, #dfdfdf 100%);
+		background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 20%,#dfdfdf 20%,#dfdfdf 100%);
+		background: linear-gradient(to right, #ffffff 0%,#ffffff 20%,#dfdfdf 20%,#dfdfdf 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=1 );
+	}
+}
+
+@media screen and (min-width: 120em) {
+	
+	/*-----Header-----*/
+	#headerWrapper {
+		background: #ffffff;
+		background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 27%, #dfdfdf 27%, #dfdfdf 100%);
+		background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 27%,#dfdfdf 27%,#dfdfdf 100%);
+		background: linear-gradient(to right, #ffffff 0%,#ffffff 27%,#dfdfdf 27%,#dfdfdf 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=1 );
+	}
+}
